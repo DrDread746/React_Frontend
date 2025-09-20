@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+  font-family: Quicksand;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body , html , #root{
+  width: 100%;
+  height: 100%;
+}
+#root .title p{
+  font-weight: bold;
+  margin: 22px;
+  font-size: 50px;
+  color: #f1365d;
+}
+.description{
+  margin-left: 25px;
+  margin-top: 14px;
+  font-size: 24px;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 100%;
+  height: 550px;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 750px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
+.link-field{
+  border: none;
+  width: 450px;
+  border-radius: 8px;
+  font-size: 25px;
+  align-self: center;
+}
+.enter-btn{
+  border: none;
+  font-weight: bold;
+  margin-top: 35px;
+  border-radius: 12px;
+  color: white;
+  background-color: #f1365d;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100px;
+  align-self: center;
+}
+.nav-btn{
+  width: 750px;
+  display: flex;
+  justify-content: space-around;
+}
+.link-btn{
+  border: none;
+  border-radius: 12px 12px 0 0;
+  margin-top: 15px;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f1365d;
+  cursor: pointer;
+  color: white;
+}
+.sms-btn{
+  border: none;
+  border-radius: 12px 12px 0 0;
+  margin-top: 15px;
+  font-size: 20px;
+  padding: 15px 20px;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  color: #f1365d;
+}
